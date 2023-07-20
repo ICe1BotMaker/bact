@@ -1,0 +1,28 @@
+// Import Module Bact
+import Header -> './src/components/Header.bact';
+
+// View Component And Define function App
+@View define App [] -> {
+    // Set State numState 0
+    @State set numState -> 0;
+
+    // Define function changeState (params [value])
+    define changeState [value: (none | numeric)] -> {
+        // If value not none
+        if value not none {
+            // Set numState (params [values])
+            set numState -> value;
+        } else { // Else
+            // Set numState +1
+            set numState -> numState + 1;
+        } end if;
+    } end define;
+    
+    return (
+        <embed>
+            <Header />
+            <p>${numState}</p>
+            <button onclick=${changeState}>click</button>
+        </embed>
+    ) end return;
+} end define;

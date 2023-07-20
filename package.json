@@ -1,0 +1,17 @@
+{
+  "name": "bact",
+  "version": "1.0.0b",
+  "description": "",
+  "main": "./dist/index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "keywords": [],
+  "author": "ICe1",
+  "license": "MIT",
+  "dependencies": {
+    "@types/node": "^20.4.2",
+    "http": "^0.0.1-security",
+    "typescript": "^5.1.6"
+  }
+}
