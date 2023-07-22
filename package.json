@@ -1,5 +1,5 @@
 {
-  "name": "bact",
+  "name": "@ice1/bact",
   "version": "1.0.0b",
   "description": "",
   "main": "./dist/index.js",

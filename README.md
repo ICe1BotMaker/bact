@@ -15,5 +15,5 @@
 _~~(Package **act.js** already exists and has been replaced with **bact.js**)~~_
 
 ```
-$ npm install bact
+$ npm install @ice1/bact
 ```
